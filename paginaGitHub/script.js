@@ -7,5 +7,5 @@ function exibirHoraAtual() {
     elementoHora.textContent = horaFormatada;
 }
 
-// Atualiza a hora a cada segundo
+// Atualiza a hora a cada minuto
 setInterval(exibirHoraAtual, 1000);
